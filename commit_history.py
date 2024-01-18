@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 import os
 import sys
 
-def make_timezone_aware(dt):
+def make_timezone_aware(dt: datetime) -> datetime:
     return dt.replace(tzinfo=timezone.utc)
 
 def get_line_count_before_commit(commit: Commit, repo: git.Repo, file_path: str) -> int:
