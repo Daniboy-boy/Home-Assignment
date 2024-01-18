@@ -1,0 +1,176 @@
+Last 5 commits for repository 'deepchecks', branch 'main':
+
+Commit 0:
+
+Message: improved documentation (#2717)
+
+
+Commit ID: 42cf4b3332bb1eaaef45bfb904c774815c5bcced
+Parent IDs: 7bb31d1f0976b49255cdcefc14260a714a8e9bd6
+Author: Nadav Barak <67195469+Nadav-Barak@users.noreply.github.com>
+Author Timestamp: 2023-12-18 12:28:19
+Branches Pointing to the Commit: main
+No Tags
+Total Lines Added: 2
+Total Lines Removed: 2
+Total Files Changed: 1
+
+Changed files:
+
+File: deepchecks/core/suite.py
+Lines Before Commit: 715
+Lines After Commit: 715
+Percentage Change in Lines of Code: 0.00%
+
+Commit 1:
+
+Message: remove ipython req (#2716)
+
+
+Commit ID: 7bb31d1f0976b49255cdcefc14260a714a8e9bd6
+Parent IDs: 708bac79a4ed4f6bf9d5a82d7e9889ff886152a4
+Author: Noam Bressler <noamzbr@gmail.com>
+Author Timestamp: 2023-12-18 12:21:52
+Branches Pointing to the Commit: main
+No Tags
+Total Lines Added: 2
+Total Lines Removed: 2
+Total Files Changed: 1
+
+Changed files:
+
+File: requirements/requirements.txt
+Lines Before Commit: 37
+Lines After Commit: 37
+Percentage Change in Lines of Code: 0.00%
+
+Commit 2:
+
+Message: weak segment should have maximum of 1 category (#2705)
+
+* weak segment should have maximum of 1 category
+
+* ability to remove filter 2
+
+* argument with default na
+Commit ID: 708bac79a4ed4f6bf9d5a82d7e9889ff886152a4
+Parent IDs: c4af7ddd3b0bb7665c4621b0d3a3575f89cd33e2
+Author: Nadav Barak <67195469+Nadav-Barak@users.noreply.github.com>
+Author Timestamp: 2023-12-12 07:24:02
+Branches Pointing to the Commit: main
+No Tags
+Total Lines Added: 104
+Total Lines Removed: 21
+Total Files Changed: 6
+
+Changed files:
+
+File: deepchecks/nlp/checks/data_integrity/under_annotated_segments.py
+Lines Before Commit: 335
+Lines After Commit: 347
+Percentage Change in Lines of Code: 3.58%
+
+File: deepchecks/nlp/checks/model_evaluation/weak_segments_performance.py
+Lines Before Commit: 274
+Lines After Commit: 286
+Percentage Change in Lines of Code: 4.38%
+
+File: deepchecks/tabular/checks/model_evaluation/weak_segments_performance.py
+Lines Before Commit: 202
+Lines After Commit: 207
+Percentage Change in Lines of Code: 2.48%
+
+File: deepchecks/utils/abstracts/weak_segment_abstract.py
+Lines Before Commit: 371
+Lines After Commit: 420
+Percentage Change in Lines of Code: 13.21%
+
+File: deepchecks/vision/checks/model_evaluation/weak_segments_performance.py
+Lines Before Commit: 162
+Lines After Commit: 167
+Percentage Change in Lines of Code: 3.09%
+
+File: tests/nlp/checks/model_evaluation/weak_segment_performance_test.py
+Lines Before Commit: 207
+Lines After Commit: 207
+Percentage Change in Lines of Code: 0.00%
+
+Commit 3:
+
+Message: segments bug fix with na (#2712)
+
+* segments bug fix with na
+
+* fix div by 0
+Commit ID: c4af7ddd3b0bb7665c4621b0d3a3575f89cd33e2
+Parent IDs: 76b92c831c477a9f7f316be96afb4a838e9c9f48
+Author: Nadav Barak <67195469+Nadav-Barak@users.noreply.github.com>
+Author Timestamp: 2023-12-06 15:56:49
+Branches Pointing to the Commit: main
+No Tags
+Total Lines Added: 21
+Total Lines Removed: 9
+Total Files Changed: 3
+
+Changed files:
+
+File: deepchecks/tabular/metric_utils/scorers.py
+Lines Before Commit: 474
+Lines After Commit: 477
+Percentage Change in Lines of Code: 0.63%
+
+File: deepchecks/utils/abstracts/weak_segment_abstract.py
+Lines Before Commit: 362
+Lines After Commit: 371
+Percentage Change in Lines of Code: 2.49%
+
+File: tests/nlp/checks/model_evaluation/weak_segment_performance_test.py
+Lines Before Commit: 207
+Lines After Commit: 207
+Percentage Change in Lines of Code: 0.00%
+
+Commit 4:
+
+Message: change_weak_segments_na_logic (#2709)
+
+* change_weak_segments_na_logic
+
+* don't create heatmap display for too-small segments
+
+---------
+
+Co-authored-by: Noam Bressler <noamzbr@gmail.com>
+Commit ID: 76b92c831c477a9f7f316be96afb4a838e9c9f48
+Parent IDs: 6ff7d2a4b9a554d27c0164004b9cbbe5d0c05219
+Author: JKL98ISR <jonatan.lib@gmail.com>
+Author Timestamp: 2023-12-06 10:37:17
+Branches Pointing to the Commit: main
+No Tags
+Total Lines Added: 10
+Total Lines Removed: 10
+Total Files Changed: 3
+
+Changed files:
+
+File: deepchecks/utils/abstracts/weak_segment_abstract.py
+Lines Before Commit: 362
+Lines After Commit: 362
+Percentage Change in Lines of Code: 0.00%
+
+File: deepchecks/utils/dataframes.py
+Lines Before Commit: 271
+Lines After Commit: 271
+Percentage Change in Lines of Code: 0.00%
+
+File: tests/nlp/checks/model_evaluation/weak_segment_performance_test.py
+Lines Before Commit: 207
+Lines After Commit: 207
+Percentage Change in Lines of Code: 0.00%
+
+Summary Information:
+Total unique authors: 3
+Total lines added: 139
+Total lines deleted: 44
+Total files touched: 10
+Time passed since first commit: 42 days, 21:49:42.144142
+Time passed since last commit: 30 days, 19:58:40.144142
